@@ -1,0 +1,31 @@
+/* GENERAL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+/* DEBUG */
+.debug-box{
+  background-color: rgba(255, 0, 0, 0.5);
+  border: 1px solid black;
+  min-height: 200px;
+}
+.debug{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid red;
+  min-height: 100px;
+}
+
+/* FLEX */
+.d-flex{
+  display: flex;
+}
+.d-wrap{
+  flex-wrap: wrap;
+}
+.d-column{
+  flex-direction: column;
+}
+/* HEADER */
+/* MAIN */
+/* FOOTER */
