@@ -14,7 +14,6 @@
 .debug-box{
   background-color: rgba(255, 0, 0, 0.5);
   border: 1px solid black;
-  min-height: 50px;
 }
 .debug{
   background-color: rgba(0, 0, 0, 0.5);
@@ -38,7 +37,7 @@ button{
   color: black;
   padding: 8px 4px;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 40px;
   border: none;
 }
 
@@ -48,7 +47,7 @@ button:hover{
 /* CONTAINER */
 
 .container{
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 .container-small{
@@ -56,25 +55,21 @@ button:hover{
 }
 /* HEADER */
 header{
-  background-color: #0084FD;
   height: 80px;
+  background-color: #0083fd;
 }
-header>div{
+header{
   justify-content: space-between;
-  height: 100%;
-}
-.list ul{
-  justify-content: space-evenly;
-  height: 100%;
   align-items: center;
+  padding: 40px;
 }
-.list ul li{
-  width: calc(100%/5);
-  justify-content: center;
-  padding: 10px 20px;
+.logo-header{
+  height: 60px;
+  width: 120px;
 }
-header li a {
+header .menu-burger i{
   color: white;
+  font-size: 35px;
 }
 /* MAIN */
 /* FOOTER */
