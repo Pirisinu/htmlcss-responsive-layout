@@ -1,8 +1,31 @@
+/* VAR */
+:root{
+  --h2-info-section:#0084FD;
+  --p-info-section:#5A6E7F;
+  --margin-20px:20px;
+  --margin-20-0:20px 0px;
+  --violet:#9792E4;
+  --padd-60-0:60px 0px;
+
+}
 /* GENERAL */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ }
+ section{
+  padding: var(--padd-60-0);
+ }
+ h2{
+  text-transform: capitalize;
+  margin: var(--margin-20px);
+ }
+ h3, p{
+  margin: var(--margin-20px);
+ }
+ span{
+  margin: var(--margin-20px);
  }
  li{
   list-style: none;
@@ -10,6 +33,7 @@
  a{
   text-decoration: none;
  }
+
 /* DEBUG */
 .debug-box{
   background-color: rgba(255, 0, 0, 0.5);
@@ -31,27 +55,19 @@
 .d-column{
   flex-direction: column;
 }
+
 /* BUTTON */
-button{
-  background-color: white;
-  color: black;
-  padding: 8px 4px;
+.button{
+  padding: 10px 50px;
+  border-radius: 20px;
+  text-align: center;
   cursor: pointer;
-  border-radius: 40px;
-  border: none;
 }
 
-button:hover{
-  background-color:#0083fd80;
-}
 /* CONTAINER */
-
 .container{
   width: 90%;
   margin: 0 auto;
-}
-.container-small{
-
 }
 /* HEADER */
 header{
@@ -71,5 +87,132 @@ header .menu-burger i{
   color: white;
   font-size: 35px;
 }
+header .menu-desktop{
+  display: none;
+}
 /* MAIN */
-/* FOOTER */
+/* SECTION FIRST-INFO */
+.first-info .col{
+  width: 100%;
+  margin: 0px auto;
+}
+.first-info .col .card{
+  background-color: #B5DDFF;
+  border-radius: 15px;
+  margin: var(--margin-20-0);
+  text-align: center;
+}
+.first-info h2{
+  color: var(--h2-info-section);
+}
+.first-info p{
+  color: var(--p-info-section);
+  font-size: 1.2rem;
+}
+
+/* SECTION PLANNING */
+.planning{
+  background-color: var(--violet);
+  text-align: center;
+  color: white;
+}
+.planning .card{
+  background-color: white;
+  color: black;
+  border-radius: 38px;
+  padding: var(--margin-20px);
+}
+.planning .card .button{
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+  background-color: var(--violet);
+  color: black;
+}
+
+/* SECTION TESTIMONIAL */
+.testimonial{
+  text-align: center;
+}
+
+.testimonial h2{
+  color: var(--violet);
+}
+.testimonial .card{
+  background-color: var(--violet);
+  color: white;
+  border-radius: 30px;
+  padding: var(--margin-20px);
+  margin: var(--margin-20-0);
+}
+
+/* SECTION BENEFITS */
+.benefits{
+  background-color: var(--violet);
+}
+.benefits h2{
+  text-align: center;
+  color: white;
+}
+.benefits h3{
+  color: var(--violet);
+  text-transform: capitalize;
+}
+.benefits .col{
+  color: var(--p-info-section);
+  padding: var(--margin-20-0);
+  margin: var(--margin-20px);
+}
+.benefits .card{
+  background-color: white;
+  border-radius: 25px;
+}
+.benefits .card p.num{
+  color: var(--violet);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.benefits .card a.button{
+  background-color: var(--violet);
+  color: white;
+  width: 40%;
+  margin: var(--margin-20px);
+}
+
+/* SECTION ABOUT US */
+.about-us h2,h3{
+  color: var(--violet);
+}
+.about-us a.button{
+  background-color: var(--violet);
+  color: white;
+  margin: var(--margin-20px);
+}
+
+/* SECTION STARTED */
+.started{
+  background-color: var(--violet);
+  text-align: center;
+  color: white;
+}
+.started span{
+  color: var(--p-info-section);
+}
+.started span.big-span{
+  font-size: 3rem;
+  color: #FDC15F;
+  font-weight: bold;
+}
+.started a.button{
+  background-color: white;
+  color: var(--violet);
+}
+.started h5{
+  margin: var(--margin-20-0);
+}
+  /* FOOTER */
+footer{
+  background-color: #333333;
+  text-align: center;
+  color: white;
+}
