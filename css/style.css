@@ -23,14 +23,12 @@
   font-family: 'PT Sans', sans-serif;
  }
  section{
-  padding: var(--padd-60-0);
-  margin: var(--margin-60-0);
+  padding: var(--padding-60-0);
  }
  img{
   width: 100%;
  }
  h2{
-  text-transform: capitalize;
   margin: var(--margin-20-0);
   font-size: 2.5rem;
  }
@@ -154,11 +152,9 @@ header .menu-desktop{
   font-size: 1rem;
   color: white;
 }
-
 .first-info div.button a{
   color: white;
 }
-
 
 /* SECTION PLANNING */
 .planning{
@@ -189,7 +185,8 @@ header .menu-desktop{
   background-color: var(--violet);
   color: black;
 }
-.planning .col div.card h2,p{
+.planning .card h2,
+.planning .card p{
   text-align: center;
 }
 .planning .card a{
