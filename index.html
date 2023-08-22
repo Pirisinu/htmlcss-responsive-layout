@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Responsive Layout</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -12,14 +15,18 @@
 
 <body>
   
-  <header class="d-flex">
-      <div class="logo-header debug-box"></div>
+  <header>
+    <div class="container d-flex">
+      <div class="logo-header">
+        <img src="img/logo.png" alt="Logo">
+      </div>
       <div class="menu">
         <div class="menu-burger">
           <i class="fa-solid fa-bars"></i>
           <div class="menu-desktop"></div>
         </div>
       </div>
+    </div>
   </header>
 
   <main>
@@ -27,53 +34,37 @@
 
       <div class="row d-flex d-column">
         <div class="container">
-          <div class="col d-flex">
+          <div class="col d-flex d-column">
             <div class="card">
               <h2>Get a demo application</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat consequuntur earum necessitatibus perspiciatis! Ea mollitia laboriosam fugiat repellat numquam molestiae unde, saepe possimus perspiciatis voluptatum consequatur cupiditate blanditiis aliquam enim? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis impedit minima possimus laborum doloribus aperiam a, quisquam optio, magni minus distinctio atque perspiciatis perferendis cum amet exercitationem dolorum quos aspernatur!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, archiyecyo ad dolore quod, facere totam quas recusandae blanditiis.</p>
               <div class="button"><i class="fa-brands fa-apple"></i>App Store</div>
-              <img src="" alt="photo">
+              <img src="img/phone.png" alt="photo">
             </div>
-          </div>
-          <div class="col d-flex">
             <div class="card">
-              <div>
-                <img src="" alt="IMG code-page">
-                <h2>Clean Code</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti velit architecto, asperiores beatae excepturi earum! Quidem, autem cupiditate. Rerum, culpa dolorem odio quasi maiores optio eum repellat natus doloribus nisi?</p>
-              </div>
+              <i class="fa-solid fa-file-code"></i>
+              <h2>Clean Code</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, archiyecyo ad dolore quod, facere totam quas recusandae blanditiis.</p>
             </div>
-          </div>
-          <div class="col d-flex">
             <div class="card">
-              <div>
-                <img src="" alt="IMG compass">
-                <h2>web design</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti velit architecto, asperiores beatae excepturi earum! Quidem, autem cupiditate. Rerum, culpa dolorem odio quasi maiores optio eum repellat natus doloribus nisi?</p>
-              </div>
+              <i class="fa-solid fa-compass-drafting"></i>
+              <h2>web design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, archiyecyo ad dolore quod, facere totam quas recusandae blanditiis.</p>
             </div>
-          </div>
-          <div class="col d-flex">
             <div class="card">
-              <div>
-                <img src="" alt="IMG developement">
-                <h2>developement</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti velit architecto, asperiores beatae excepturi earum! Quidem, autem cupiditate. Rerum, culpa dolorem odio quasi maiores optio eum repellat natus doloribus nisi?</p>
-              </div>
+              <i class="fa-solid fa-laptop-code"></i>
+              <h2>developement</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, archiyecyo ad dolore quod, facere totam quas recusandae blanditiis.</p>
             </div>
-          </div>
-          <div class="col d-flex">
             <div class="card">
-              <div>
-                <img src="" alt="IMG branding">
-                <h2>branding</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti velit architecto, asperiores beatae excepturi earum! Quidem, autem cupiditate. Rerum, culpa dolorem odio quasi maiores optio eum repellat natus doloribus nisi?</p>
-              </div>
+              <i class="fa-solid fa-bullhorn"></i>
+              <h2>branding</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, archiyecyo ad dolore quod, facere totam quas recusandae blanditiis.</p>
             </div>
           </div>
         </div>
 
-
+        
       </div>
     </section>
 
@@ -81,11 +72,11 @@
       <div class="row">
         <div class="container">
           <div class="col">
-            <img src="" alt="IMG donna che pensa">
+            <img src="img/planning1.png" alt="IMG donna che pensa">
             <h2>strategic planning</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi atque laboriosam, quasi necessitatibus voluptates quaerat quis, a repudiandae quo mollitia aspernatur? Soluta libero molestiae cupiditate nihil aliquid doloremque quam adipisci!</p>
+            <p>Egestas dui id ornare arcu odio. In tellus integer feugiat sclerisque varius morbi enim nunc. Hanitasse platea di</p>
             <div class="card debug-box">
-              <img src="" alt="IMG uomo che pensa">
+              <img src="img/planning2.png" alt="IMG uomo che pensa">
               <h2>App developement</h2>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas debitis odit optio nemo hic sapiente in harum laboriosam iste amet voluptatum provident repellat distinctio quaerat itaque laudantium aliquam, veniam esse perspiciatis maiores exercitationem veritatis? Aperiam ipsum magni nulla voluptatem id reprehenderit ullam esse consequuntur alias harum modi quisquam unde, dolore odio exercitationem? Earum sequi fugiat iure repellat, voluptate ea adipisci. Laboriosam dicta cumque modi! A, iusto iste quasi dolorum placeat temporibus sunt? Dolorum rerum animi temporibus voluptas ab numquam praesentium a odio eos nulla amet nemo consequatur accusantium debitis corrupti voluptatum, laudantium quos dolorem vitae molestiae omnis recusandae veritatis dolore quisquam! Quasi suscipit sit, neque alias a hic id omnis eaque minus accusantium deserunt explicabo nobis libero mollitia dolorum, aliquam minima modi fugiat facilis animi harum quo quas? Veritatis soluta recusandae veniam obcaecati, deserunt rem dignissimos sunt quae, magnam alias autem quisquam ea consequuntur natus aspernatur id, voluptate sequi repudiandae odit quibusdam! Sapiente hic, repellat neque dolor modi vel saepe corrupti possimus deserunt, officiis tenetur. Magnam reprehenderit unde aspernatur temporibus modi accusamus sint nobis, consequatur omnis dicta iusto labore suscipit tenetur amet tempore repellendus magni? Molestiae illum quaerat ipsa! Fuga eveniet, quo quasi sequi fugit laudantium obcaecati voluptatum magnam! Quidem dicta ratione perferendis repellat velit eos temporibus vitae numquam, iusto reiciendis laboriosam saepe officia recusandae dolorem sed illo illum! Cupiditate fug</p>
               <a href="" class="button"><i class="fa-solid fa-arrow-down"></i></a>

@@ -13,9 +13,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
  }
  section{
   padding: var(--padd-60-0);
+ }
+ img{
+  width: 100%;
  }
  h2{
   text-transform: capitalize;
@@ -33,7 +37,9 @@
  a{
   text-decoration: none;
  }
-
+ col{
+  width: 100%;
+ }
 /* DEBUG */
 .debug-box{
   background-color: rgba(255, 0, 0, 0.5);
@@ -58,7 +64,7 @@
 
 /* BUTTON */
 .button{
-  padding: 10px 50px;
+  padding: 10px 70px;
   border-radius: 20px;
   text-align: center;
   cursor: pointer;
@@ -73,15 +79,19 @@
 header{
   height: 80px;
   background-color: #0083fd;
+  flex-direction: row;
 }
-header{
+header .container{
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  height: 100%;
 }
 .logo-header{
   height: 60px;
   width: 120px;
+}
+.logo-header img{
+  width: 100%;
 }
 header .menu-burger i{
   color: white;
@@ -101,14 +111,32 @@ header .menu-desktop{
   border-radius: 15px;
   margin: var(--margin-20-0);
   text-align: center;
+  padding: 40px 40px;;
+}
+.first-info .col .card img{
+  width: 78%;
+}
+.first-info i{
+  color: var(--h2-info-section);
+  font-size: 6rem;
 }
 .first-info h2{
   color: var(--h2-info-section);
+  font-size: 2.4rem;
 }
 .first-info p{
   color: var(--p-info-section);
-  font-size: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
 }
+.first-info .button{
+  background-color: var(--h2-info-section);
+  color: white;
+  width: 70%;
+  margin: var(--margin-20px);
+  font-weight: 700;
+  font-size: 1.5rem;
+} 
 
 /* SECTION PLANNING */
 .planning{
@@ -121,6 +149,9 @@ header .menu-desktop{
   color: black;
   border-radius: 38px;
   padding: var(--margin-20px);
+}
+.planning h2{
+  font-size: 2.5rem;
 }
 .planning .card .button{
   height: 60px;
