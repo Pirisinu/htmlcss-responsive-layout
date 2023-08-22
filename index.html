@@ -8,8 +8,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media-query.css">
 
 </head>
 
@@ -103,19 +105,19 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et incidunt distinctio odit, sapiente velit, explicabo sit corrupti culpa earum, cum sunt modi dolorem voluptatem porro voluptas qui numquam ratione eligendi.</p>
         <div class="row">
           <div class="card">
-            <img src="" alt="IMG PERSONA NAT">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquam distinctio dicta vitae animi quasi esse tenetur, veritatis qui accusantium nisi ea tempore eos at. Laboriosam mollitia ipsa cumque rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nesciunt dolor veritatis! Autem quia sint modi repellat cumque, natus assumenda. Ea consequatur obcaecati odio, doloremque placeat tenetur modi consequuntur cum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, eos alias nostrum modi maxime, eum vitae possimus voluptates recusandae velit distinctio minima repudiandae dolor corrupti sit culpa labore amet excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam vero accusantium autem, corporis facere cumque explicabo. Distinctio nihil provident dolorem perferendis nulla illo? Natus exercitationem repudiandae asperiores hic commodi voluptate.</p>
-            <span>nat reynolds</span>
+            <img src="img/testimonial1.jpg" alt="IMG PERSONA NAT">
+            <p><i class="fa-solid fa-quote-left"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquam distinctio dicta vitae animi quasi esse tenetur, veritatis qui accusantium nisi ea tempore eos at. Laboriosam mollitia ipsa cumque rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nesciunt<i class="fa-solid fa-quote-right"></i></p>
+            <span class="name">nat reynolds</span>
           </div>
           <div class="card">
-            <img src="" alt="IMG PERSONA CELIA">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquam distinctio dicta vitae animi quasi esse tenetur, veritatis qui accusantium nisi ea tempore eos at. Laboriosam mollitia ipsa cumque rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nesciunt dolor veritatis! Autem quia sint modi repellat cumque, natus assumenda. Ea consequatur obcaecati odio, doloremque placeat tenetur modi consequuntur cum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, eos alias nostrum modi maxime, eum vitae possimus voluptates recusandae velit distinctio minima repudiandae dolor corrupti sit culpa labore amet excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam vero accusantium autem, corporis facere cumque explicabo. Distinctio nihil provident dolorem perferendis nulla illo? Natus exercitationem repudiandae asperiores hic commodi voluptate.</p>
-            <span>nat reynolds</span>
+            <img src="img/testimonial2.jpg" alt="IMG PERSONA CELIA">
+            <p><i class="fa-solid fa-quote-left"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquam distinctio dicta vitae animi quasi esse tenetur, veritatis qui accusantium nisi ea tempore eos at. Laboriosam mollitia ipsa cumque rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nesciunt<i class="fa-solid fa-quote-right"></i></p>
+            <span class="name">nat reynolds</span>
           </div>
           <div class="card">
-            <img src="" alt="IMG PERSONA BOB">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquam distinctio dicta vitae animi quasi esse tenetur, veritatis qui accusantium nisi ea tempore eos at. Laboriosam mollitia ipsa cumque rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nesciunt dolor veritatis! Autem quia sint modi repellat cumque, natus assumenda. Ea consequatur obcaecati odio, doloremque placeat tenetur modi consequuntur cum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, eos alias nostrum modi maxime, eum vitae possimus voluptates recusandae velit distinctio minima repudiandae dolor corrupti sit culpa labore amet excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam vero accusantium autem, corporis facere cumque explicabo. Distinctio nihil provident dolorem perferendis nulla illo? Natus exercitationem repudiandae asperiores hic commodi voluptate..</p>
-            <span>nat reynolds</span>
+            <img src="img/testimonial3.jpg" alt="IMG PERSONA BOB">
+            <p><i class="fa-solid fa-quote-left"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquam distinctio dicta vitae animi quasi esse tenetur, veritatis qui accusantium nisi ea tempore eos at. Laboriosam mollitia ipsa cumque rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nesciunt<i class="fa-solid fa-quote-right"></i></p>
+            <span class="name">nat reynolds</span>
           </div>
         </div>
       </div>
@@ -126,86 +128,111 @@
         <h2>Benefits of working with us</h2>
         <div class="row">
           <div class="col">
-            <div class="card d-flex d-column">
+            <div class="card">
               <p class="num">01</p>
-              <h3>title</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus architecto recusandae quasi natus ipsum voluptas voluptate molestias reiciendis maiores harum! Fugiat non veniam sed consequuntur delectus voluptas velit numquam ipsam!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus aliquid totam dolorem, exercitationem aperiam! Distinctio, quibusdam mollitia ea asperiores repellendus nemo libero beatae ut accusantium ratione ducimus illum ex. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat incidunt cupiditate magni aliquam molestiae minus dolorem saepe vero? Fugit perferendis nisi accusantium voluptates impedit doloremque atque facere officia similique id?</p>
-              <a href="#" class="button">more</a>
+              <h3>hight quality</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus architecto recusandae quasi natus ipsum voluptas voluptate molestias reiciendis maiores harum! Fugiat non veniam sed consequuntur delectus voluptas velit numquam ipsam!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="button">
+                <a href="#">more</a>
+              </div>
             </div>
           </div>
+          
           <div class="col">
-            <div class="card d-flex d-column">
+            <div class="card">
               <p class="num">02</p>
-              <h3>title</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus architecto recusandae quasi natus ipsum voluptas voluptate molestias reiciendis maiores harum! Fugiat non veniam sed consequuntur delectus voluptas velit numquam ipsam!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus aliquid totam dolorem, exercitationem aperiam! Distinctio, quibusdam mollitia ea asperiores repellendus nemo libero beatae ut accusantium ratione ducimus illum ex. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat incidunt cupiditate magni aliquam molestiae minus dolorem saepe vero? Fugit perferendis nisi accusantium voluptates impedit doloremque atque facere officia similique id?</p>
-              <a href="#" class="button">more</a>
+              <h3>hight quality</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus architecto recusandae quasi natus ipsum voluptas voluptate molestias reiciendis maiores harum! Fugiat non veniam sed consequuntur delectus voluptas velit numquam ipsam!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="button">
+                <a href="#">more</a>
+              </div>
             </div>
           </div>
+
           <div class="col">
-            <div class="card d-flex d-column">
+            <div class="card">
               <p class="num">03</p>
-              <h3>title</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus architecto recusandae quasi natus ipsum voluptas voluptate molestias reiciendis maiores harum! Fugiat non veniam sed consequuntur delectus voluptas velit numquam ipsam!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus aliquid totam dolorem, exercitationem aperiam! Distinctio, quibusdam mollitia ea asperiores repellendus nemo libero beatae ut accusantium ratione ducimus illum ex. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat incidunt cupiditate magni aliquam molestiae minus dolorem saepe vero? Fugit perferendis nisi accusantium voluptates impedit doloremque atque facere officia similique id?</p>
-              <a href="#" class="button">more</a>
+              <h3>hight quality</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus architecto recusandae quasi natus ipsum voluptas voluptate molestias reiciendis maiores harum! Fugiat non veniam sed consequuntur delectus voluptas velit numquam ipsam!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="button">
+                <a href="#">more</a>
+              </div>
             </div>
           </div>
+
           <div class="col">
-            <div class="card d-flex d-column">
+            <div class="card">
               <p class="num">04</p>
-              <h3>title</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus architecto recusandae quasi natus ipsum voluptas voluptate molestias reiciendis maiores harum! Fugiat non veniam sed consequuntur delectus voluptas velit numquam ipsam!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus aliquid totam dolorem, exercitationem aperiam! Distinctio, quibusdam mollitia ea asperiores repellendus nemo libero beatae ut accusantium ratione ducimus illum ex. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat incidunt cupiditate magni aliquam molestiae minus dolorem saepe vero? Fugit perferendis nisi accusantium voluptates impedit doloremque atque facere officia similique id?</p>
-              <a href="#" class="button">more</a>
+              <h3>hight quality</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus architecto recusandae quasi natus ipsum voluptas voluptate molestias reiciendis maiores harum! Fugiat non veniam sed consequuntur delectus voluptas velit numquam ipsam!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="button">
+                <a href="#">more</a>
+              </div>
             </div>
           </div>
+
           <div class="col">
-            <div class="card d-flex d-column">
+            <div class="card">
               <p class="num">05</p>
-              <h3>title</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus architecto recusandae quasi natus ipsum voluptas voluptate molestias reiciendis maiores harum! Fugiat non veniam sed consequuntur delectus voluptas velit numquam ipsam!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus aliquid totam dolorem, exercitationem aperiam! Distinctio, quibusdam mollitia ea asperiores repellendus nemo libero beatae ut accusantium ratione ducimus illum ex. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat incidunt cupiditate magni aliquam molestiae minus dolorem saepe vero? Fugit perferendis nisi accusantium voluptates impedit doloremque atque facere officia similique id?</p>
-              <a href="#" class="button">more</a>
+              <h3>hight quality</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus architecto recusandae quasi natus ipsum voluptas voluptate molestias reiciendis maiores harum! Fugiat non veniam sed consequuntur delectus voluptas velit numquam ipsam!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="button">
+                <a href="#">more</a>
+              </div>
             </div>
           </div>
+
           <div class="col">
-            <div class="card d-flex d-column">
+            <div class="card">
               <p class="num">06</p>
-              <h3>title</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus architecto recusandae quasi natus ipsum voluptas voluptate molestias reiciendis maiores harum! Fugiat non veniam sed consequuntur delectus voluptas velit numquam ipsam!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus aliquid totam dolorem, exercitationem aperiam! Distinctio, quibusdam mollitia ea asperiores repellendus nemo libero beatae ut accusantium ratione ducimus illum ex. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat incidunt cupiditate magni aliquam molestiae minus dolorem saepe vero? Fugit perferendis nisi accusantium voluptates impedit doloremque atque facere officia similique id?</p>
-              <a href="#" class="button">more</a>
+              <h3>hight quality</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus architecto recusandae quasi natus ipsum voluptas voluptate molestias reiciendis maiores harum! Fugiat non veniam sed consequuntur delectus voluptas velit numquam ipsam!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="button">
+                <a href="#">more</a>
+              </div>
             </div>
           </div>
+
         </div>  
       </div>
     </section>
 
     <section class="about-us">
-      <div>
+      <div class="container">
         <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error culpa tempora laborum consequuntur magnam tenetur hic in praesentium! Nobis voluptatum dicta labore excepturi exercitationem asperiores quia perferendis aut, odit doloremque fuga minima ad fugiat harum porro culpa debitis et ipsa cumque impedit? Necessitatibus modi blanditiis ex, eveniet atque consequatur saepe nesciunt ducimus, laudantium deserunt molestiae maiores dolorum. Magnam unde, aspernatur quisquam, in quod illum dolores aliquam id asperiores a, obcaecati cum doloribus. Qui commodi quo nesciunt animi, voluptates fugit doloribus reprehenderit facere debitis quae obcaecati molestiae tempora natus doloremque saepe quisquam esse illo? Enim earum maxime hic ex neque nulla laudantium voluptatem necessitatibus obcaecati ipsum rerum rem fugiat corrupti ipsam soluta facere porro at atque quas numquam quaerat ad, non dignissimos? Accusantium, nobis inventore similique cumque iusto quisquam dolore exercitationem quae temporibus nesciunt accusamus totam velit earum hic fugit mollitia est molestiae quis sapiente. Cum perspiciatis inventore facilis asperiores nihil!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, est cupiditate ab vero nam enim asperiores labore, laudantium quis totam expedita unde debitis voluptatem. Placeat magni consectetur alias amet eos quidem provident, natus odio minus totam corrupti fugit ducimus obcaecati, recusandae harum omnis aspernatur magnam modi illum. Nam corporis ducimus aliquid quasi quod dolores doloribus doloremque ea iusto, sapiente, modi sunt eos earum delectus voluptates debitis ab et nobis maxime ut, consequatur expedita! Natus sequi illum, itaque vel quasi accusamus in ipsam nam officia enim, id neque. Repudiandae odio, dolores nihil possimus esse, quam officiis voluptatum aliquid quibusdam nam alias?</p>
-      </div>
-      <div class="card">
-        <img src="" alt="">
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias veniam pariatur voluptate </h3>
-        <div><a href="" class="button">Find me on linkedin</a></div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error culpa tempora laborum consequuntur magnam tenetur hic in praesentium! Nobis voluptatum dicta labore excepturi exercitationem asperiores quia perferendis aut, odit doloremque fuga minima ad fugiat harum porro culpa debitis et ipsa cumque impedit? Necessitatibus modi blanditiis ex, eveniet atque consequatur saepe nesciunt ducimus, laudantium deserunt molestiae maiores dolorum. Magnam unde, aspernatur quisquam, in quod illum dolores aliquam id asperiores a, obcaecati cum doloribus. </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, est cupiditate ab vero nam enim asperiores labore, laudantium quis totam expedita unde debitis voluptatem. Placeat magni consectetur alias amet eos quidem provident, natus odio minus totam corrupti fugit ducimus obcaecati, recusandae </p>
+        <div class="card">
+          <div class="img-special">
+            <img src="img/about.jpg" alt="">
+            <i class="fa-solid fa-quote-left"></i>
+          </div>
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias veniam pariatur voluptate </h3>
+          <div><a href="" class="button"><i class="fa-brands fa-linkedin"></i>Find me on linkedin</a></div>
+        </div>
       </div>
     </section>
 
     <section class="started">
-      <span>Get started</span>
-      <h2>Simple, Transparent Pricing</h2>
-      <span class="big-span">It's Free!</span>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quaerat </p>
-      <div>
-        <a href="#" class="button"> Get Started</a>
+      <div class="container">
+        <span class="grey-span">Get started</span>
+        <h2>Simple, Transparent Pricing</h2>
+        <span class="big-span">It's Free!</span>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae maxime recusandae incidunt ducimus sed.</p>
+        <div class="button">
+          <a href="#"> Get Started</a>
+        </div>
+        <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <a href=""> Eum sequi atque</a></h5>
       </div>
-      <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum sequi atque </h5>
     </section>
   </main>
       
   <footer>
     <section class="foot">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et esse nisi illo quos id eveniet cumque laboriosam. Porro, exercitationem accusantium autem fuga, natus praesentium veritatis accusamus, repudiandae nesciunt distinctio doloremque.</p>
-      <p><a href="#">Lorem ipsum dolor, sit ame</a>t consectetur adipisicing elit. Officiis, velit blanditiis sunt possimus necessitatibus neque facilis excepturi similique illo inventore repellendus commodi nisi quod sequi esse <a href="#"> sit maiores, voluptates dolor!</a></p>
+      <div class="container">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et esse nisi illo quos id eveniet cumque laboriosam. Porro, exercitationem accusantium autem fug</p>
+        <p><a href="#">Lorem ipsum dolor, sit ame</a>t consectetur adipisicing elit. Officiis, velit  similique illo esse <a href="#"> sit maiores, voluptates dolor!</a></p>
+      </div>
     </section>
   </footer>
 
