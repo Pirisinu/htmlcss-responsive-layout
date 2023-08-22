@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px){
+  .first-info .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .first-info .col {
+    margin: 10px;
+    width: calc(100%/3);
+  }
+
+  .first-info .col:first-child{
+    width: 60%;
+  }
+}
