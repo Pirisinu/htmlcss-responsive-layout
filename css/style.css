@@ -2,10 +2,17 @@
 :root{
   --h2-info-section:#0084FD;
   --p-info-section:#5A6E7F;
+  --blue:#0084FD;
+  --grey:#5A6E7F;
+  --violet:#9792E4;
   --margin-20px:20px;
   --margin-20-0:20px 0px;
-  --violet:#9792E4;
-  --padd-60-0:60px 0px;
+  --margin-40-0:40px 0px;
+  --margin-60-0:60px 0px;
+  --padding-20px:20px;
+  --padding-20-0:20px 0px;
+  --padding-40-0:40px 0px;
+  --padding-60-0:60px 0px;
 
 }
 /* GENERAL */
@@ -17,19 +24,24 @@
  }
  section{
   padding: var(--padd-60-0);
+  margin: var(--margin-60-0);
  }
  img{
   width: 100%;
  }
  h2{
   text-transform: capitalize;
-  margin: var(--margin-20px);
+  margin: var(--margin-20-0);
+  font-size: 2.5rem;
+ }
+ p{
+  font-size: 1.6rem;
  }
  h3, p{
-  margin: var(--margin-20px);
+  margin: var(--margin-40-0);
  }
  span{
-  margin: var(--margin-20px);
+  margin: var(--margin-20-0);
  }
  li{
   list-style: none;
@@ -39,6 +51,9 @@
  }
  col{
   width: 100%;
+ }
+ .grey{
+  color: var(--p-info-section);
  }
 /* DEBUG */
 .debug-box{
@@ -64,8 +79,8 @@
 
 /* BUTTON */
 .button{
-  padding: 10px 70px;
-  border-radius: 20px;
+  margin: var(--margin-20-0);
+  padding: 10px 20px;
   text-align: center;
   cursor: pointer;
 }
@@ -102,16 +117,18 @@ header .menu-desktop{
 }
 /* MAIN */
 /* SECTION FIRST-INFO */
-.first-info .col{
-  width: 100%;
-  margin: 0px auto;
-}
 .first-info .col .card{
   background-color: #B5DDFF;
   border-radius: 15px;
   margin: var(--margin-20-0);
   text-align: center;
   padding: 40px 40px;;
+}
+.first-info .col div:first-child{
+  padding-bottom: 0px;
+}
+.first-info .col div:first-child h2,p{
+  text-align: left;
 }
 .first-info .col .card img{
   width: 78%;
@@ -122,24 +139,30 @@ header .menu-desktop{
 }
 .first-info h2{
   color: var(--h2-info-section);
-  font-size: 2.4rem;
 }
 .first-info p{
   color: var(--p-info-section);
-  font-size: 1.6rem;
   font-weight: 700;
 }
-.first-info .button{
-  background-color: var(--h2-info-section);
+.first-info div.button{
+  background-color: var(--blue);
+  width: 60%;
+  border-radius: 30px;
+}
+.first-info div.button i{
+  margin: 10px;
+  font-size: 1rem;
   color: white;
-  width: 70%;
-  margin: var(--margin-20px);
-  font-weight: 700;
-  font-size: 1.5rem;
-} 
+}
+
+.first-info div.button a{
+  color: white;
+}
+
 
 /* SECTION PLANNING */
 .planning{
+  padding: var(--padding-60-0);
   background-color: var(--violet);
   text-align: center;
   color: white;
@@ -151,14 +174,27 @@ header .menu-desktop{
   padding: var(--margin-20px);
 }
 .planning h2{
-  font-size: 2.5rem;
+  margin: var(--margin-60-0);
 }
-.planning .card .button{
+.planning h2,p{
+  text-align: left;
+}
+.planning .card div.button{
   height: 60px;
   width: 60px;
-  padding: 10px;
+  padding: 20px;
+  margin: 40px auto;
+  font-size: 1.5rem;
+  border-radius: 50%;
   background-color: var(--violet);
   color: black;
+}
+.planning .col div.card h2,p{
+  text-align: center;
+}
+.planning .card a{
+  width: 100%;
+  height: 100%;
 }
 
 /* SECTION TESTIMONIAL */
